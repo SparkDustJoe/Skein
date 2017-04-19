@@ -1,0 +1,15 @@
+
+	_state = new UInt64[] { 0x164290a9d4eeef1dUL, 
+							0x8e7eaf44b1b0cd15UL, 
+							0xa8ba0822f69d09aeUL,
+							0x0af25c5e364a6468UL };
+
+	_state = new UInt64[] { 0x1a9a721c8a265ca5UL, 0xc9abacf5aa853978UL, 
+							0x4af6652ab80a2883UL, 0x66f5e8a809a773c7UL,
+							0x7fa984b781baaf5bUL, 0x0fe5d2d93233f397UL, 
+							0x6e29f932dcb412d7UL, 0xd40cd9472f225c23UL };
+
+	_state = new UInt64[] { 0x495e85b953876965UL, 0x1e3d5c1b41e754efUL, 0x237254552e9c10c7UL, 0x0b00aab4fa441407UL,
+							0x17dda56aa106337cUL, 0xf98200e9cae13f94UL, 0xf2df7f00adff12bfUL, 0xa92673d0d0ca7ad9UL,
+							0xc0dd64b04b27ed98UL, 0x87c36a6ca0a26f90UL, 0x640c8526d0850a10UL, 0x6ebfad0c93da09aeUL,
+							0x617e3bcddee4a85fUL, 0x05a4a1a7d82737b7UL, 0x002baf2c3eb13d30UL, 0x28527a78c83d554cUL };
