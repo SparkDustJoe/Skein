@@ -1,0 +1,53 @@
+:Skein-256:   256-bit hash, msgLen =   257 bits, data = 'zero'
+
+Message data:
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=MSG.  Flags= First          
+  Tweak:
+     00000000.00000020  70000000.00000000 
+  State words:
+     FC9DA860.D048B449  2FCA6647.9FA7D833  B33BC389.6656840F  6A54E920.FDE8DA69 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     2A1DC156.BF97BCDC  48C9C967.6423D03C  F8FFF15F.DD0EC835  D3D2BD0D.A35903BD 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000021. Type=MSG.  Flags=       Final Pad
+  Tweak:
+     00000000.00000021  B0800000.00000000 
+  State words:
+     2A1DC156.BF97BCDC  48C9C967.6423D03C  F8FFF15F.DD0EC835  D3D2BD0D.A35903BD 
+  Input block (bytes):
+     40 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     C9690E5A.6CF2AD86  63B65C1E.78DDD853  310DD3B3.132671BC  65520A50.DAF559CE 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     C9690E5A.6CF2AD86  63B65C1E.78DDD853  310DD3B3.132671BC  65520A50.DAF559CE 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     605BD9FA.96A9AE3E  45C33AA9.6C4D6532  0400D84C.758CED0B  A72FE534.6E87A260 
+    ----------
+
+:Skein-256:  Final output=
+     3E AE A9 96  FA D9 5B 60  32 65 4D 6C  A9 3A C3 45
+     0B ED 8C 75  4C D8 00 04  60 A2 87 6E  34 E5 2F A7
+    ++++++++++
+Result:
+     3E AE A9 96  FA D9 5B 60  32 65 4D 6C  A9 3A C3 45
+     0B ED 8C 75  4C D8 00 04  60 A2 87 6E  34 E5 2F A7

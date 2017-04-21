@@ -1,0 +1,104 @@
+:Skein-256:   512-bit hash, msgLen =  1024 bits, data = 'incrementing'
+
+Message data:
+     FF FE FD FC  FB FA F9 F8  F7 F6 F5 F4  F3 F2 F1 F0
+     EF EE ED EC  EB EA E9 E8  E7 E6 E5 E4  E3 E2 E1 E0
+     DF DE DD DC  DB DA D9 D8  D7 D6 D5 D4  D3 D2 D1 D0
+     CF CE CD CC  CB CA C9 C8  C7 C6 C5 C4  C3 C2 C1 C0
+     BF BE BD BC  BB BA B9 B8  B7 B6 B5 B4  B3 B2 B1 B0
+     AF AE AD AC  AB AA A9 A8  A7 A6 A5 A4  A3 A2 A1 A0
+     9F 9E 9D 9C  9B 9A 99 98  97 96 95 94  93 92 91 90
+     8F 8E 8D 8C  8B 8A 89 88  87 86 85 84  83 82 81 80
+
+:Skein-256:  Block: outBits= 512. T0=000020. Type=MSG.  Flags= First          
+  Tweak:
+     00000000.00000020  70000000.00000000 
+  State words:
+     C4CE5631.EA655042  9BBEEFDC.80F03B55  771E5CBF.A3DD7ED0  BE5B58CB.3DAB065D 
+  Input block (bytes):
+     FF FE FD FC  FB FA F9 F8  F7 F6 F5 F4  F3 F2 F1 F0
+     EF EE ED EC  EB EA E9 E8  E7 E6 E5 E4  E3 E2 E1 E0
+
+:Skein-256:  [state after plaintext feedforward]=
+     ABB8A0E3.86B9137D  434022BD.0CFEB61E  AED674F2.27742DB2  66F57498.68E7B8DA 
+    ----------
+
+:Skein-256:  Block: outBits= 512. T0=000040. Type=MSG.  Flags=                
+  Tweak:
+     00000000.00000040  30000000.00000000 
+  State words:
+     ABB8A0E3.86B9137D  434022BD.0CFEB61E  AED674F2.27742DB2  66F57498.68E7B8DA 
+  Input block (bytes):
+     DF DE DD DC  DB DA D9 D8  D7 D6 D5 D4  D3 D2 D1 D0
+     CF CE CD CC  CB CA C9 C8  C7 C6 C5 C4  C3 C2 C1 C0
+
+:Skein-256:  [state after plaintext feedforward]=
+     EE5802A1.3951D3EA  A69CA084.31EB05D2  783FBA70.E71806A2  0CB32FA3.B8A9EE2A 
+    ----------
+
+:Skein-256:  Block: outBits= 512. T0=000060. Type=MSG.  Flags=                
+  Tweak:
+     00000000.00000060  30000000.00000000 
+  State words:
+     EE5802A1.3951D3EA  A69CA084.31EB05D2  783FBA70.E71806A2  0CB32FA3.B8A9EE2A 
+  Input block (bytes):
+     BF BE BD BC  BB BA B9 B8  B7 B6 B5 B4  B3 B2 B1 B0
+     AF AE AD AC  AB AA A9 A8  A7 A6 A5 A4  A3 A2 A1 A0
+
+:Skein-256:  [state after plaintext feedforward]=
+     DBEA1589.B4E1C459  E058C55C.FC625D44  3F0D86BF.30B4EE5A  DFC7A8A1.B9B080F6 
+    ----------
+
+:Skein-256:  Block: outBits= 512. T0=000080. Type=MSG.  Flags=       Final    
+  Tweak:
+     00000000.00000080  B0000000.00000000 
+  State words:
+     DBEA1589.B4E1C459  E058C55C.FC625D44  3F0D86BF.30B4EE5A  DFC7A8A1.B9B080F6 
+  Input block (bytes):
+     9F 9E 9D 9C  9B 9A 99 98  97 96 95 94  93 92 91 90
+     8F 8E 8D 8C  8B 8A 89 88  87 86 85 84  83 82 81 80
+
+:Skein-256:  [state after plaintext feedforward]=
+     3DAD2CD3.5D849499  76928BC9.CF0AB6B9  1B0A0B37.486601AB  8DA4C508.1FB56A2F 
+    ----------
+
+:Skein-256:  Block: outBits= 512. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     3DAD2CD3.5D849499  76928BC9.CF0AB6B9  1B0A0B37.486601AB  8DA4C508.1FB56A2F 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     EDD08FD2.6FABED1A  6A3CFA22.6D2AB862  D9A07405.92F4AF71  F496FFB6.A3904D0F 
+    ----------
+
+:Skein-256:  Final output=
+     1A ED AB 6F  D2 8F D0 ED  62 B8 2A 6D  22 FA 3C 6A
+     71 AF F4 92  05 74 A0 D9  0F 4D 90 A3  B6 FF 96 F4
+    ++++++++++
+
+:Skein-256:  Block: outBits= 512. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     3DAD2CD3.5D849499  76928BC9.CF0AB6B9  1B0A0B37.486601AB  8DA4C508.1FB56A2F 
+  Input block (bytes):
+     01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     330F8454.DFABA036  615F18A2.90D7F76D  82BE40B3.403F461E  AF02B825.FB270611 
+    ----------
+
+:Skein-256:  Final output=
+     36 A0 AB DF  54 84 0F 33  6D F7 D7 90  A2 18 5F 61
+     1E 46 3F 40  B3 40 BE 82  11 06 27 FB  25 B8 02 AF
+    ++++++++++
+Result:
+     1A ED AB 6F  D2 8F D0 ED  62 B8 2A 6D  22 FA 3C 6A
+     71 AF F4 92  05 74 A0 D9  0F 4D 90 A3  B6 FF 96 F4
+     36 A0 AB DF  54 84 0F 33  6D F7 D7 90  A2 18 5F 61
+     1E 46 3F 40  B3 40 BE 82  11 06 27 FB  25 B8 02 AF

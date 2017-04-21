@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeinTester", "SkeinTester\SkeinTester.csproj", "{3780489F-F1CB-4A3D-A573-B775BB661172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildThreeFishCPP", "BuildThreeFishCPP\BuildThreeFishCPP.csproj", "{7A001BBE-6C5E-4D2F-ADA8-C3C3FA835D08}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skein", "Skein\Skein.vcxproj", "{29117C33-2DEC-4874-B727-6C25AA8C7C10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Debug|x64.ActiveCfg = Debug|x64
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Debug|x64.Build.0 = Debug|x64
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Debug|x86.ActiveCfg = Debug|x86
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Debug|x86.Build.0 = Debug|x86
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Release|x64.ActiveCfg = Release|x64
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Release|x64.Build.0 = Release|x64
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Release|x86.ActiveCfg = Release|Any CPU
+		{3780489F-F1CB-4A3D-A573-B775BB661172}.Release|x86.Build.0 = Release|Any CPU
+		{7A001BBE-6C5E-4D2F-ADA8-C3C3FA835D08}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7A001BBE-6C5E-4D2F-ADA8-C3C3FA835D08}.Debug|x64.ActiveCfg = Debug|x86
+		{7A001BBE-6C5E-4D2F-ADA8-C3C3FA835D08}.Debug|x86.ActiveCfg = Debug|x86
+		{7A001BBE-6C5E-4D2F-ADA8-C3C3FA835D08}.Release|Any CPU.ActiveCfg = Release|x86
+		{7A001BBE-6C5E-4D2F-ADA8-C3C3FA835D08}.Release|x64.ActiveCfg = Release|x86
+		{7A001BBE-6C5E-4D2F-ADA8-C3C3FA835D08}.Release|x64.Build.0 = Release|x86
+		{7A001BBE-6C5E-4D2F-ADA8-C3C3FA835D08}.Release|x86.ActiveCfg = Release|x86
+		{7A001BBE-6C5E-4D2F-ADA8-C3C3FA835D08}.Release|x86.Build.0 = Release|x86
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Debug|x64.ActiveCfg = Debug|x64
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Debug|x64.Build.0 = Debug|x64
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Debug|x86.ActiveCfg = Debug|Win32
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Debug|x86.Build.0 = Debug|Win32
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Release|Any CPU.ActiveCfg = Release|Win32
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Release|x64.ActiveCfg = Release|x64
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Release|x64.Build.0 = Release|x64
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Release|x86.ActiveCfg = Release|Win32
+		{29117C33-2DEC-4874-B727-6C25AA8C7C10}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs08
+		SccProjectUniqueName0 = SkeinLib\\SkeinLib.csproj
+		SccProjectName0 = SkeinLib
+		SccAuxPath0 = https://tfs.codeplex.com/tfs/tfs08
+		SccLocalPath0 = SkeinLib
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = SkeinTester\\SkeinTester.csproj
+		SccProjectName1 = SkeinTester
+		SccAuxPath1 = https://tfs.codeplex.com/tfs/tfs08
+		SccLocalPath1 = SkeinTester
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

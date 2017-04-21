@@ -1,0 +1,54 @@
+:Skein-256:   256-bit hash, msgLen =     1 bits, data = 'random+MAC'
+
+Message data:
+     D3
+MAC key =   32 bytes:
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=KEY.  Flags= First Final    
+  Tweak:
+     00000000.00000020  C0000000.00000000 
+  State words:
+     00000000.00000000  00000000.00000000  00000000.00000000  00000000.00000000 
+  Input block (bytes):
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  [state after plaintext feedforward]=
+     5991C2F4.A25C79A7  8FA4824F.02CD0D1E  7B482D47.739D1CF6  00006C67.CE3BF2BF 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000001. Type=MSG.  Flags= First Final Pad
+  Tweak:
+     00000000.00000001  F0800000.00000000 
+  State words:
+     F36F73B8.C3BF7AC0  4A4D6A2E.F5CDC2D9  79387320.01ED54F8  BB1E58BF.300C5286 
+  Input block (bytes):
+     C0 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     3F83EDDF.99049781  11A00958.6563D224  0632DCCB.BE3FE7C8  1CF6A1DA.3EE26BB6 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     3F83EDDF.99049781  11A00958.6563D224  0632DCCB.BE3FE7C8  1CF6A1DA.3EE26BB6 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     5E44324E.07EF1A6F  D26DD48E.F36D06F3  12CDABCB.EEB6A4B4  02EA6804.52F6924E 
+    ----------
+
+:Skein-256:  Final output=
+     6F 1A EF 07  4E 32 44 5E  F3 06 6D F3  8E D4 6D D2
+     B4 A4 B6 EE  CB AB CD 12  4E 92 F6 52  04 68 EA 02
+    ++++++++++
+Result:
+     6F 1A EF 07  4E 32 44 5E  F3 06 6D F3  8E D4 6D D2
+     B4 A4 B6 EE  CB AB CD 12  4E 92 F6 52  04 68 EA 02

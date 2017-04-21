@@ -1,0 +1,55 @@
+:Skein-256:   256-bit hash, msgLen =   256 bits, data = 'random+MAC'
+
+Message data:
+     D3 09 0C 72  16 75 17 F7  C7 AD 82 A7  0C 2F D3 F6
+     44 3F 60 83  01 59 1E 59  8E AD B1 95  E8 35 71 35
+MAC key =   32 bytes:
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=KEY.  Flags= First Final    
+  Tweak:
+     00000000.00000020  C0000000.00000000 
+  State words:
+     00000000.00000000  00000000.00000000  00000000.00000000  00000000.00000000 
+  Input block (bytes):
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  [state after plaintext feedforward]=
+     5991C2F4.A25C79A7  8FA4824F.02CD0D1E  7B482D47.739D1CF6  00006C67.CE3BF2BF 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=MSG.  Flags= First Final    
+  Tweak:
+     00000000.00000020  F0000000.00000000 
+  State words:
+     F36F73B8.C3BF7AC0  4A4D6A2E.F5CDC2D9  79387320.01ED54F8  BB1E58BF.300C5286 
+  Input block (bytes):
+     D3 09 0C 72  16 75 17 F7  C7 AD 82 A7  0C 2F D3 F6
+     44 3F 60 83  01 59 1E 59  8E AD B1 95  E8 35 71 35
+
+:Skein-256:  [state after plaintext feedforward]=
+     318B1D19.BE55FEF7  848B41C4.E54B2BFD  1B1AD907.3412279C  5836BDA9.E5E37F6F 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     318B1D19.BE55FEF7  848B41C4.E54B2BFD  1B1AD907.3412279C  5836BDA9.E5E37F6F 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     82E06EC1.FC80999E  69E0D047.514A16CF  0E628DCB.3DFEEF2A  E9E26211.0942B52B 
+    ----------
+
+:Skein-256:  Final output=
+     9E 99 80 FC  C1 6E E0 82  CF 16 4A 51  47 D0 E0 69
+     2A EF FE 3D  CB 8D 62 0E  2B B5 42 09  11 62 E2 E9
+    ++++++++++
+Result:
+     9E 99 80 FC  C1 6E E0 82  CF 16 4A 51  47 D0 E0 69
+     2A EF FE 3D  CB 8D 62 0E  2B B5 42 09  11 62 E2 E9

@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Skein/v14
+/BuildThreeFishCPP/bin
+/BuildThreeFishCPP/obj/x86
+/Skein/x64
+/SkeinTester/bin
+/SkeinTester/obj
+*.user
+/Skein.VC.VC.opendb
+/Skein.VC.db

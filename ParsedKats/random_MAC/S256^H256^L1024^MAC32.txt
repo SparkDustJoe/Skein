@@ -1,0 +1,100 @@
+:Skein-256:   256-bit hash, msgLen =  1024 bits, data = 'random+MAC'
+
+Message data:
+     D3 09 0C 72  16 75 17 F7  C7 AD 82 A7  0C 2F D3 F6
+     44 3F 60 83  01 59 1E 59  8E AD B1 95  E8 35 71 35
+     BA 26 FE DE  2E E1 87 41  7F 81 60 48  D0 0F C2 35
+     12 73 7A 21  13 70 9A 77  E4 17 0C 49  A9 4B 7F DF
+     F4 5F F5 79  A7 22 87 74  31 02 E7 76  6C 35 CA 5A
+     BC 5D FE 2F  63 A1 E7 26  CE 5F BD 29  26 DB 03 A2
+     DD 18 B0 3F  C1 50 8A 9A  AC 45 EB 36  24 40 20 3A
+     32 3E 09 ED  EE 63 24 EE  2E 37 B4 43  2C 18 67 ED
+MAC key =   32 bytes:
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=KEY.  Flags= First Final    
+  Tweak:
+     00000000.00000020  C0000000.00000000 
+  State words:
+     00000000.00000000  00000000.00000000  00000000.00000000  00000000.00000000 
+  Input block (bytes):
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  [state after plaintext feedforward]=
+     5991C2F4.A25C79A7  8FA4824F.02CD0D1E  7B482D47.739D1CF6  00006C67.CE3BF2BF 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=MSG.  Flags= First          
+  Tweak:
+     00000000.00000020  70000000.00000000 
+  State words:
+     F36F73B8.C3BF7AC0  4A4D6A2E.F5CDC2D9  79387320.01ED54F8  BB1E58BF.300C5286 
+  Input block (bytes):
+     D3 09 0C 72  16 75 17 F7  C7 AD 82 A7  0C 2F D3 F6
+     44 3F 60 83  01 59 1E 59  8E AD B1 95  E8 35 71 35
+
+:Skein-256:  [state after plaintext feedforward]=
+     1F77F66C.7C7ABECE  013DD93A.818F6DD8  993A6EB5.1AB8FEED  1B2B6B9B.72D6BAEA 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000040. Type=MSG.  Flags=                
+  Tweak:
+     00000000.00000040  30000000.00000000 
+  State words:
+     1F77F66C.7C7ABECE  013DD93A.818F6DD8  993A6EB5.1AB8FEED  1B2B6B9B.72D6BAEA 
+  Input block (bytes):
+     BA 26 FE DE  2E E1 87 41  7F 81 60 48  D0 0F C2 35
+     12 73 7A 21  13 70 9A 77  E4 17 0C 49  A9 4B 7F DF
+
+:Skein-256:  [state after plaintext feedforward]=
+     5853F40C.8F9EDD3B  4CCCF3C7.196C00D8  1738B2C5.40C5B0BA  BA6115B4.F1BDA792 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000060. Type=MSG.  Flags=                
+  Tweak:
+     00000000.00000060  30000000.00000000 
+  State words:
+     5853F40C.8F9EDD3B  4CCCF3C7.196C00D8  1738B2C5.40C5B0BA  BA6115B4.F1BDA792 
+  Input block (bytes):
+     F4 5F F5 79  A7 22 87 74  31 02 E7 76  6C 35 CA 5A
+     BC 5D FE 2F  63 A1 E7 26  CE 5F BD 29  26 DB 03 A2
+
+:Skein-256:  [state after plaintext feedforward]=
+     7636AC74.DC951A2A  A963B6F4.E787EFF4  1DA70E0D.0454CA86  C079A430.78D4BF6E 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000080. Type=MSG.  Flags=       Final    
+  Tweak:
+     00000000.00000080  B0000000.00000000 
+  State words:
+     7636AC74.DC951A2A  A963B6F4.E787EFF4  1DA70E0D.0454CA86  C079A430.78D4BF6E 
+  Input block (bytes):
+     DD 18 B0 3F  C1 50 8A 9A  AC 45 EB 36  24 40 20 3A
+     32 3E 09 ED  EE 63 24 EE  2E 37 B4 43  2C 18 67 ED
+
+:Skein-256:  [state after plaintext feedforward]=
+     D567C81F.1E50E130  60E22771.A61E38EA  4B191BAB.69E56808  C6EBDB6B.BA5A4000 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     D567C81F.1E50E130  60E22771.A61E38EA  4B191BAB.69E56808  C6EBDB6B.BA5A4000 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     2DC96165.AB4F1BAC  3EC5AE2D.087E480C  1CF58BE0.05F5B40D  04FC375E.37D54FAE 
+    ----------
+
+:Skein-256:  Final output=
+     AC 1B 4F AB  65 61 C9 2D  0C 48 7E 08  2D AE C5 3E
+     0D B4 F5 05  E0 8B F5 1C  AE 4F D5 37  5E 37 FC 04
+    ++++++++++
+Result:
+     AC 1B 4F AB  65 61 C9 2D  0C 48 7E 08  2D AE C5 3E
+     0D B4 F5 05  E0 8B F5 1C  AE 4F D5 37  5E 37 FC 04

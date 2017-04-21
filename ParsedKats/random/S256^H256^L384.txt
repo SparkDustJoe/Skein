@@ -1,0 +1,53 @@
+:Skein-256:   256-bit hash, msgLen =   384 bits, data = 'random'
+
+Message data:
+     FB D1 7C 26  B6 1A 82 E1  2E 12 5F 0D  45 9B 96 C9
+     1A B4 83 7D  FF 22 B3 9B  78 43 94 30  CD FC 5D C8
+     78 BB 39 3A  1A 5F 79 BE  F3 09 95 A8  5A 12 92 33
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=MSG.  Flags= First          
+  Tweak:
+     00000000.00000020  70000000.00000000 
+  State words:
+     FC9DA860.D048B449  2FCA6647.9FA7D833  B33BC389.6656840F  6A54E920.FDE8DA69 
+  Input block (bytes):
+     FB D1 7C 26  B6 1A 82 E1  2E 12 5F 0D  45 9B 96 C9
+     1A B4 83 7D  FF 22 B3 9B  78 43 94 30  CD FC 5D C8
+
+:Skein-256:  [state after plaintext feedforward]=
+     3D024041.E1832D09  64B6A781.CCE791C9  BC716D5B.5DF43C15  11A64DCF.DFFEB297 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000030. Type=MSG.  Flags=       Final    
+  Tweak:
+     00000000.00000030  B0000000.00000000 
+  State words:
+     3D024041.E1832D09  64B6A781.CCE791C9  BC716D5B.5DF43C15  11A64DCF.DFFEB297 
+  Input block (bytes):
+     78 BB 39 3A  1A 5F 79 BE  F3 09 95 A8  5A 12 92 33
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     FC2C3D37.B8743E70  1900077B.646E7B7D  ED3C4D65.796F4F26  531C1D96.BE4E8777 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     FC2C3D37.B8743E70  1900077B.646E7B7D  ED3C4D65.796F4F26  531C1D96.BE4E8777 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     7465BA4B.4A890C64  98D27DDF.0D923EC8  9DCBBB1B.8834C62F  CE895E28.0AAE4E77 
+    ----------
+
+:Skein-256:  Final output=
+     64 0C 89 4A  4B BA 65 74  C8 3E 92 0D  DF 7D D2 98
+     2F C6 34 88  1B BB CB 9D  77 4E AE 0A  28 5E 89 CE
+    ++++++++++
+Result:
+     64 0C 89 4A  4B BA 65 74  C8 3E 92 0D  DF 7D D2 98
+     2F C6 34 88  1B BB CB 9D  77 4E AE 0A  28 5E 89 CE

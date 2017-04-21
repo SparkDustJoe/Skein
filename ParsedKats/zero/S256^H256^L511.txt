@@ -1,0 +1,54 @@
+:Skein-256:   256-bit hash, msgLen =   511 bits, data = 'zero'
+
+Message data:
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=MSG.  Flags= First          
+  Tweak:
+     00000000.00000020  70000000.00000000 
+  State words:
+     FC9DA860.D048B449  2FCA6647.9FA7D833  B33BC389.6656840F  6A54E920.FDE8DA69 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     2A1DC156.BF97BCDC  48C9C967.6423D03C  F8FFF15F.DD0EC835  D3D2BD0D.A35903BD 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000040. Type=MSG.  Flags=       Final Pad
+  Tweak:
+     00000000.00000040  B0800000.00000000 
+  State words:
+     2A1DC156.BF97BCDC  48C9C967.6423D03C  F8FFF15F.DD0EC835  D3D2BD0D.A35903BD 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 01
+
+:Skein-256:  [state after plaintext feedforward]=
+     286146CA.88021ED5  997462C5.02E5468F  76409B35.86A98E7D  7BBCD512.A51F39D6 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     286146CA.88021ED5  997462C5.02E5468F  76409B35.86A98E7D  7BBCD512.A51F39D6 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     2F33FA15.0B819389  190200A8.2EAA33C3  3AEC5816.E57A77BC  78E6398A.90E9723A 
+    ----------
+
+:Skein-256:  Final output=
+     89 93 81 0B  15 FA 33 2F  C3 33 AA 2E  A8 00 02 19
+     BC 77 7A E5  16 58 EC 3A  3A 72 E9 90  8A 39 E6 78
+    ++++++++++
+Result:
+     89 93 81 0B  15 FA 33 2F  C3 33 AA 2E  A8 00 02 19
+     BC 77 7A E5  16 58 EC 3A  3A 72 E9 90  8A 39 E6 78

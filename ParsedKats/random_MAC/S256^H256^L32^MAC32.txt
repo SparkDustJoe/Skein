@@ -1,0 +1,54 @@
+:Skein-256:   256-bit hash, msgLen =    32 bits, data = 'random+MAC'
+
+Message data:
+     D3 09 0C 72
+MAC key =   32 bytes:
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=KEY.  Flags= First Final    
+  Tweak:
+     00000000.00000020  C0000000.00000000 
+  State words:
+     00000000.00000000  00000000.00000000  00000000.00000000  00000000.00000000 
+  Input block (bytes):
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  [state after plaintext feedforward]=
+     5991C2F4.A25C79A7  8FA4824F.02CD0D1E  7B482D47.739D1CF6  00006C67.CE3BF2BF 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000004. Type=MSG.  Flags= First Final    
+  Tweak:
+     00000000.00000004  F0000000.00000000 
+  State words:
+     F36F73B8.C3BF7AC0  4A4D6A2E.F5CDC2D9  79387320.01ED54F8  BB1E58BF.300C5286 
+  Input block (bytes):
+     D3 09 0C 72  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     A9BDB855.D8B0B334  D3D0D08F.B6232CD3  F15F618E.72F8C29B  6B4F3B5A.60E7AF4F 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     A9BDB855.D8B0B334  D3D0D08F.B6232CD3  F15F618E.72F8C29B  6B4F3B5A.60E7AF4F 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     992FEACB.7283651D  F4D69975.C43C4928  A2DFBE36.35E38CAD  D5196551.079F730B 
+    ----------
+
+:Skein-256:  Final output=
+     1D 65 83 72  CB EA 2F 99  28 49 3C C4  75 99 D6 F4
+     AD 8C E3 35  36 BE DF A2  0B 73 9F 07  51 65 19 D5
+    ++++++++++
+Result:
+     1D 65 83 72  CB EA 2F 99  28 49 3C C4  75 99 D6 F4
+     AD 8C E3 35  36 BE DF A2  0B 73 9F 07  51 65 19 D5

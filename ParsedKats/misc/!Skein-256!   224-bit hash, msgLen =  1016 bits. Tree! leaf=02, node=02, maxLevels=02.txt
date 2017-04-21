@@ -1,0 +1,100 @@
+
+
+:Skein-256:   224-bit hash, msgLen =  1016 bits. Tree: leaf=02, node=02, maxLevels=02
+
+Message data:
+     00 01 02 01  04 01 06 01  08 01 0A 01  0C 01 0E 01
+     10 01 12 01  14 01 16 01  18 01 1A 01  1C 01 1E 01
+     20 01 22 01  24 01 26 01  28 01 2A 01  2C 01 2E 01
+     30 01 32 01  34 01 36 01  38 01 3A 01  3C 01 3E 01
+     40 01 42 01  44 01 46 01  48 01 4A 01  4C 01 4E 01
+     50 01 52 01  54 01 56 01  58 01 5A 01  5C 01 5E 01
+     60 01 62 01  64 01 66 01  68 01 6A 01  6C 01 6E 01
+     70 01 72 01  74 01 76 01  78 01 7A 01  7C 01 7E
+
+:Skein-256:  Block: outBits= 224. T0=000020. Type=CFG.  Flags= First Final    
+  Tweak:
+     00000000.00000020  C4000000.00000000 
+  State words:
+     00000000.00000000  00000000.00000000  00000000.00000000  00000000.00000000 
+  Input block (bytes):
+     53 48 41 33  01 00 00 00  E0 00 00 00  00 00 00 00
+     02 02 02 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     E5DBA82D.29E0CEDE  12489942.B852EBA6  0E1079A7.EA60A7E5  BA097BA4.35E95850 
+    ----------
+
+:Skein-256:  Block: outBits= 224. T0=000020. Type=MSG.  Flags= First            TreeLevel = 01
+  Tweak:
+     00000000.00000020  70010000.00000000 
+  State words:
+     E5DBA82D.29E0CEDE  12489942.B852EBA6  0E1079A7.EA60A7E5  BA097BA4.35E95850 
+  Input block (bytes):
+     00 01 02 01  04 01 06 01  08 01 0A 01  0C 01 0E 01
+     10 01 12 01  14 01 16 01  18 01 1A 01  1C 01 1E 01
+
+:Skein-256:  [state after plaintext feedforward]=
+     F9898E32.46F135AC  4BBD469F.CDF08841  66C9C243.36B9170D  AED7BDCE.03FCEAA2 
+    ----------
+
+:Skein-256:  Block: outBits= 224. T0=000040. Type=MSG.  Flags=                  TreeLevel = 01
+  Tweak:
+     00000000.00000040  30010000.00000000 
+  State words:
+     F9898E32.46F135AC  4BBD469F.CDF08841  66C9C243.36B9170D  AED7BDCE.03FCEAA2 
+  Input block (bytes):
+     20 01 22 01  24 01 26 01  28 01 2A 01  2C 01 2E 01
+     30 01 32 01  34 01 36 01  38 01 3A 01  3C 01 3E 01
+
+:Skein-256:  [state after plaintext feedforward]=
+     7201CE1E.42C77FFC  55C45CF9.AD6DA42E  B39A5105.835E5909  DF03F19F.D8BEB78F 
+    ----------
+
+:Skein-256:  Block: outBits= 224. T0=000060. Type=MSG.  Flags=                  TreeLevel = 01
+  Tweak:
+     00000000.00000060  30010000.00000000 
+  State words:
+     7201CE1E.42C77FFC  55C45CF9.AD6DA42E  B39A5105.835E5909  DF03F19F.D8BEB78F 
+  Input block (bytes):
+     40 01 42 01  44 01 46 01  48 01 4A 01  4C 01 4E 01
+     50 01 52 01  54 01 56 01  58 01 5A 01  5C 01 5E 01
+
+:Skein-256:  [state after plaintext feedforward]=
+     EC326045.9F62FE01  849DE119.400E3DA8  A4141116.C6E3B2C9  E7933FB1.9E0705DA 
+    ----------
+
+:Skein-256:  Block: outBits= 224. T0=00007F. Type=MSG.  Flags=       Final      TreeLevel = 01
+  Tweak:
+     00000000.0000007F  B0010000.00000000 
+  State words:
+     EC326045.9F62FE01  849DE119.400E3DA8  A4141116.C6E3B2C9  E7933FB1.9E0705DA 
+  Input block (bytes):
+     60 01 62 01  64 01 66 01  68 01 6A 01  6C 01 6E 01
+     70 01 72 01  74 01 76 01  78 01 7A 01  7C 01 7E 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     F8400B78.71D88DFE  D2428120.6E150ED0  DA5B6C50.07C206FF  0621E4D5.A0A5BE75 
+    ----------
+
+:Skein-256:  Block: outBits= 224. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     F8400B78.71D88DFE  D2428120.6E150ED0  DA5B6C50.07C206FF  0621E4D5.A0A5BE75 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     1EFC469F.C99C47BA  82AA963D.FA5523BD  6532F772.9C05CBB2  45A70878.8D56B42C 
+    ----------
+
+:Skein-256:  Final output=
+     BA 47 9C C9  9F 46 FC 1E  BD 23 55 FA  3D 96 AA 82
+     B2 CB 05 9C  72 F7 32 65  2C B4 56 8D
+    ++++++++++
+Result:
+     BA 47 9C C9  9F 46 FC 1E  BD 23 55 FA  3D 96 AA 82
+     B2 CB 05 9C  72 F7 32 65  2C B4 56 8D
+

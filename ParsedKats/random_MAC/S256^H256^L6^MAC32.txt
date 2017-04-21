@@ -1,0 +1,54 @@
+:Skein-256:   256-bit hash, msgLen =     6 bits, data = 'random+MAC'
+
+Message data:
+     D3
+MAC key =   32 bytes:
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=KEY.  Flags= First Final    
+  Tweak:
+     00000000.00000020  C0000000.00000000 
+  State words:
+     00000000.00000000  00000000.00000000  00000000.00000000  00000000.00000000 
+  Input block (bytes):
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     47 A0 D3 15  CB 2E 53 FF  8B AC 41 DA  00 02 67 2E
+
+:Skein-256:  [state after plaintext feedforward]=
+     5991C2F4.A25C79A7  8FA4824F.02CD0D1E  7B482D47.739D1CF6  00006C67.CE3BF2BF 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000001. Type=MSG.  Flags= First Final Pad
+  Tweak:
+     00000000.00000001  F0800000.00000000 
+  State words:
+     F36F73B8.C3BF7AC0  4A4D6A2E.F5CDC2D9  79387320.01ED54F8  BB1E58BF.300C5286 
+  Input block (bytes):
+     D2 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     FB5E7D61.3DD07F7F  8899F46F.817E5A60  13DDEAF9.D75AB084  4CB2CE15.E68D1827 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     FB5E7D61.3DD07F7F  8899F46F.817E5A60  13DDEAF9.D75AB084  4CB2CE15.E68D1827 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     8F05A462.D4277784  1D0450B1.2958695D  AD7F8926.30D2E628  D43AC822.5B892687 
+    ----------
+
+:Skein-256:  Final output=
+     84 77 27 D4  62 A4 05 8F  5D 69 58 29  B1 50 04 1D
+     28 E6 D2 30  26 89 7F AD  87 26 89 5B  22 C8 3A D4
+    ++++++++++
+Result:
+     84 77 27 D4  62 A4 05 8F  5D 69 58 29  B1 50 04 1D
+     28 E6 D2 30  26 89 7F AD  87 26 89 5B  22 C8 3A D4

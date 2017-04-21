@@ -1,0 +1,53 @@
+:Skein-256:   256-bit hash, msgLen =   384 bits, data = 'zero'
+
+Message data:
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=MSG.  Flags= First          
+  Tweak:
+     00000000.00000020  70000000.00000000 
+  State words:
+     FC9DA860.D048B449  2FCA6647.9FA7D833  B33BC389.6656840F  6A54E920.FDE8DA69 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     2A1DC156.BF97BCDC  48C9C967.6423D03C  F8FFF15F.DD0EC835  D3D2BD0D.A35903BD 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000030. Type=MSG.  Flags=       Final    
+  Tweak:
+     00000000.00000030  B0000000.00000000 
+  State words:
+     2A1DC156.BF97BCDC  48C9C967.6423D03C  F8FFF15F.DD0EC835  D3D2BD0D.A35903BD 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     F730518E.4D7EBFA4  24BFE746.D19CAF83  51F72CA8.088DD5A8  1C327519.7098E9AD 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     F730518E.4D7EBFA4  24BFE746.D19CAF83  51F72CA8.088DD5A8  1C327519.7098E9AD 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     40F13442.B167F5FB  6839B826.EB5464C0  DEAF69CE.FC8C8ADF  7C132622.EB32A233 
+    ----------
+
+:Skein-256:  Final output=
+     FB F5 67 B1  42 34 F1 40  C0 64 54 EB  26 B8 39 68
+     DF 8A 8C FC  CE 69 AF DE  33 A2 32 EB  22 26 13 7C
+    ++++++++++
+Result:
+     FB F5 67 B1  42 34 F1 40  C0 64 54 EB  26 B8 39 68
+     DF 8A 8C FC  CE 69 AF DE  33 A2 32 EB  22 26 13 7C

@@ -1,0 +1,54 @@
+:Skein-256:   256-bit hash, msgLen =   255 bits, data = 'random+MAC'
+
+Message data:
+     D3 09 0C 72  16 75 17 F7  C7 AD 82 A7  0C 2F D3 F6
+     44 3F 60 83  01 59 1E 59  8E AD B1 95  E8 35 71 35
+MAC key =   16 bytes:
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+
+:Skein-256:  Block: outBits= 256. T0=000010. Type=KEY.  Flags= First Final    
+  Tweak:
+     00000000.00000010  C0000000.00000000 
+  State words:
+     00000000.00000000  00000000.00000000  00000000.00000000  00000000.00000000 
+  Input block (bytes):
+     CB 41 F1 70  6C DE 09 65  12 03 C2 D0  EF BA DD F8
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     E5EECA6E.99C91E35  17FDE4B9.3E451B97  8550EF0D.4BB5A338  522BDB82.4F47CA63 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=MSG.  Flags= First Final Pad
+  Tweak:
+     00000000.00000020  F0800000.00000000 
+  State words:
+     527F8C52.A831A15D  21653D71.A2AB6D7F  B9B9AEF1.6F19F3AD  4D2A2F9D.BE6D509D 
+  Input block (bytes):
+     D3 09 0C 72  16 75 17 F7  C7 AD 82 A7  0C 2F D3 F6
+     44 3F 60 83  01 59 1E 59  8E AD B1 95  E8 35 71 35
+
+:Skein-256:  [state after plaintext feedforward]=
+     DCE8CF86.FFA5F7C7  C3D813BE.994B9CD5  732491D5.79D53C8C  1EB71164.A6346DC7 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     DCE8CF86.FFA5F7C7  C3D813BE.994B9CD5  732491D5.79D53C8C  1EB71164.A6346DC7 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     F21574C8.941E625C  1594C304.E82918C2  12F4DA28.ECAA6CEB  71F5F7E9.6225CC62 
+    ----------
+
+:Skein-256:  Final output=
+     5C 62 1E 94  C8 74 15 F2  C2 18 29 E8  04 C3 94 15
+     EB 6C AA EC  28 DA F4 12  62 CC 25 62  E9 F7 F5 71
+    ++++++++++
+Result:
+     5C 62 1E 94  C8 74 15 F2  C2 18 29 E8  04 C3 94 15
+     EB 6C AA EC  28 DA F4 12  62 CC 25 62  E9 F7 F5 71

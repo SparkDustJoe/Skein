@@ -1,0 +1,38 @@
+:Skein-256:   256-bit hash, msgLen =   128 bits, data = 'zero'
+
+Message data:
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  Block: outBits= 256. T0=000010. Type=MSG.  Flags= First Final    
+  Tweak:
+     00000000.00000010  F0000000.00000000 
+  State words:
+     FC9DA860.D048B449  2FCA6647.9FA7D833  B33BC389.6656840F  6A54E920.FDE8DA69 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     89F71AC9.A6327FEE  E663D534.0C8683DC  72C1C1CB.36E0D9D2  FF337918.D21AEBC4 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     89F71AC9.A6327FEE  E663D534.0C8683DC  72C1C1CB.36E0D9D2  FF337918.D21AEBC4 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     D687E9DD.0778EC73  F04A5E25.38D10096  4A7A6C0A.A96C5C58  94C3FAA2.25C08BDF 
+    ----------
+
+:Skein-256:  Final output=
+     73 EC 78 07  DD E9 87 D6  96 00 D1 38  25 5E 4A F0
+     58 5C 6C A9  0A 6C 7A 4A  DF 8B C0 25  A2 FA C3 94
+    ++++++++++
+Result:
+     73 EC 78 07  DD E9 87 D6  96 00 D1 38  25 5E 4A F0
+     58 5C 6C A9  0A 6C 7A 4A  DF 8B C0 25  A2 FA C3 94

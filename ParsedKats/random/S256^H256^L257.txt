@@ -1,0 +1,53 @@
+:Skein-256:   256-bit hash, msgLen =   257 bits, data = 'random'
+
+Message data:
+     FB D1 7C 26  B6 1A 82 E1  2E 12 5F 0D  45 9B 96 C9
+     1A B4 83 7D  FF 22 B3 9B  78 43 94 30  CD FC 5D C8
+     78
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=MSG.  Flags= First          
+  Tweak:
+     00000000.00000020  70000000.00000000 
+  State words:
+     FC9DA860.D048B449  2FCA6647.9FA7D833  B33BC389.6656840F  6A54E920.FDE8DA69 
+  Input block (bytes):
+     FB D1 7C 26  B6 1A 82 E1  2E 12 5F 0D  45 9B 96 C9
+     1A B4 83 7D  FF 22 B3 9B  78 43 94 30  CD FC 5D C8
+
+:Skein-256:  [state after plaintext feedforward]=
+     3D024041.E1832D09  64B6A781.CCE791C9  BC716D5B.5DF43C15  11A64DCF.DFFEB297 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000021. Type=MSG.  Flags=       Final Pad
+  Tweak:
+     00000000.00000021  B0800000.00000000 
+  State words:
+     3D024041.E1832D09  64B6A781.CCE791C9  BC716D5B.5DF43C15  11A64DCF.DFFEB297 
+  Input block (bytes):
+     40 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     51B64804.B8D27AA3  F5E97A5C.8AE55A46  C23959B6.5E9D90E6  62E6397B.2BD94C3F 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     51B64804.B8D27AA3  F5E97A5C.8AE55A46  C23959B6.5E9D90E6  62E6397B.2BD94C3F 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     6B1D09E0.509D63F8  ADA72E5A.937CA6AD  77D723F6.0EA5268D  ABE3C4AC.6E949874 
+    ----------
+
+:Skein-256:  Final output=
+     F8 63 9D 50  E0 09 1D 6B  AD A6 7C 93  5A 2E A7 AD
+     8D 26 A5 0E  F6 23 D7 77  74 98 94 6E  AC C4 E3 AB
+    ++++++++++
+Result:
+     F8 63 9D 50  E0 09 1D 6B  AD A6 7C 93  5A 2E A7 AD
+     8D 26 A5 0E  F6 23 D7 77  74 98 94 6E  AC C4 E3 AB

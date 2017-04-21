@@ -1,0 +1,38 @@
+:Skein-256:   256-bit hash, msgLen =    10 bits, data = 'random'
+
+Message data:
+     FB D1
+
+:Skein-256:  Block: outBits= 256. T0=000002. Type=MSG.  Flags= First Final Pad
+  Tweak:
+     00000000.00000002  F0800000.00000000 
+  State words:
+     FC9DA860.D048B449  2FCA6647.9FA7D833  B33BC389.6656840F  6A54E920.FDE8DA69 
+  Input block (bytes):
+     FB E0 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     51CE97DD.B3212AB6  33C01DDE.0BD7C49D  F5FF6B5C.9E6BB8CC  011A43C5.D75AAEB2 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     51CE97DD.B3212AB6  33C01DDE.0BD7C49D  F5FF6B5C.9E6BB8CC  011A43C5.D75AAEB2 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     C2C0447D.4FEEE398  D96C0220.FC16BB08  45268601.5F50869F  F62A373C.3775816A 
+    ----------
+
+:Skein-256:  Final output=
+     98 E3 EE 4F  7D 44 C0 C2  08 BB 16 FC  20 02 6C D9
+     9F 86 50 5F  01 86 26 45  6A 81 75 37  3C 37 2A F6
+    ++++++++++
+Result:
+     98 E3 EE 4F  7D 44 C0 C2  08 BB 16 FC  20 02 6C D9
+     9F 86 50 5F  01 86 26 45  6A 81 75 37  3C 37 2A F6

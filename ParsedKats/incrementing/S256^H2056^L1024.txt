@@ -1,0 +1,242 @@
+:Skein-256:  2056-bit hash, msgLen =  1024 bits, data = 'incrementing'
+
+Message data:
+     FF FE FD FC  FB FA F9 F8  F7 F6 F5 F4  F3 F2 F1 F0
+     EF EE ED EC  EB EA E9 E8  E7 E6 E5 E4  E3 E2 E1 E0
+     DF DE DD DC  DB DA D9 D8  D7 D6 D5 D4  D3 D2 D1 D0
+     CF CE CD CC  CB CA C9 C8  C7 C6 C5 C4  C3 C2 C1 C0
+     BF BE BD BC  BB BA B9 B8  B7 B6 B5 B4  B3 B2 B1 B0
+     AF AE AD AC  AB AA A9 A8  A7 A6 A5 A4  A3 A2 A1 A0
+     9F 9E 9D 9C  9B 9A 99 98  97 96 95 94  93 92 91 90
+     8F 8E 8D 8C  8B 8A 89 88  87 86 85 84  83 82 81 80
+
+:Skein-256:  Block: outBits=2056. T0=000020. Type=MSG.  Flags= First          
+  Tweak:
+     00000000.00000020  70000000.00000000 
+  State words:
+     E586E91C.3115346D  98E3C443.EC76492D  90C67C1F.96AD397A  AF8C2C78.08C11FC5 
+  Input block (bytes):
+     FF FE FD FC  FB FA F9 F8  F7 F6 F5 F4  F3 F2 F1 F0
+     EF EE ED EC  EB EA E9 E8  E7 E6 E5 E4  E3 E2 E1 E0
+
+:Skein-256:  [state after plaintext feedforward]=
+     3965814A.FF5EA2C2  7DB7971A.9A0219FF  7F428D5A.178E650D  5BCAA93E.09F41675 
+    ----------
+
+:Skein-256:  Block: outBits=2056. T0=000040. Type=MSG.  Flags=                
+  Tweak:
+     00000000.00000040  30000000.00000000 
+  State words:
+     3965814A.FF5EA2C2  7DB7971A.9A0219FF  7F428D5A.178E650D  5BCAA93E.09F41675 
+  Input block (bytes):
+     DF DE DD DC  DB DA D9 D8  D7 D6 D5 D4  D3 D2 D1 D0
+     CF CE CD CC  CB CA C9 C8  C7 C6 C5 C4  C3 C2 C1 C0
+
+:Skein-256:  [state after plaintext feedforward]=
+     4EA46029.188DD46F  BDBD7493.4DD2012E  24D810E2.D279EE7E  A09F0FA7.D492BA1B 
+    ----------
+
+:Skein-256:  Block: outBits=2056. T0=000060. Type=MSG.  Flags=                
+  Tweak:
+     00000000.00000060  30000000.00000000 
+  State words:
+     4EA46029.188DD46F  BDBD7493.4DD2012E  24D810E2.D279EE7E  A09F0FA7.D492BA1B 
+  Input block (bytes):
+     BF BE BD BC  BB BA B9 B8  B7 B6 B5 B4  B3 B2 B1 B0
+     AF AE AD AC  AB AA A9 A8  A7 A6 A5 A4  A3 A2 A1 A0
+
+:Skein-256:  [state after plaintext feedforward]=
+     7BCC1BF9.8467627B  A8A045AC.EE01A030  B00A26FB.DEBB53ED  3B1BA043.DA74C444 
+    ----------
+
+:Skein-256:  Block: outBits=2056. T0=000080. Type=MSG.  Flags=       Final    
+  Tweak:
+     00000000.00000080  B0000000.00000000 
+  State words:
+     7BCC1BF9.8467627B  A8A045AC.EE01A030  B00A26FB.DEBB53ED  3B1BA043.DA74C444 
+  Input block (bytes):
+     9F 9E 9D 9C  9B 9A 99 98  97 96 95 94  93 92 91 90
+     8F 8E 8D 8C  8B 8A 89 88  87 86 85 84  83 82 81 80
+
+:Skein-256:  [state after plaintext feedforward]=
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+    ----------
+
+:Skein-256:  Block: outBits=2056. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     F339E9C8.A99618B6  17321722.1148550B  4881B1F3.88FEA149  50FF8509.475DBC97 
+    ----------
+
+:Skein-256:  Final output=
+     B6 18 96 A9  C8 E9 39 F3  0B 55 48 11  22 17 32 17
+     49 A1 FE 88  F3 B1 81 48  97 BC 5D 47  09 85 FF 50
+    ++++++++++
+
+:Skein-256:  Block: outBits=2056. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+  Input block (bytes):
+     01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     2B68AD73.CF6BF6B6  EA6A1833.37E77A49  F48A439B.8F93C1BF  3A3F4899.DE91EF32 
+    ----------
+
+:Skein-256:  Final output=
+     B6 F6 6B CF  73 AD 68 2B  49 7A E7 37  33 18 6A EA
+     BF C1 93 8F  9B 43 8A F4  32 EF 91 DE  99 48 3F 3A
+    ++++++++++
+
+:Skein-256:  Block: outBits=2056. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+  Input block (bytes):
+     02 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     1A3109C9.B371DCB0  3ADB74D9.77DCB647  DB894388.0C4783F6  2B82ADD9.19C2A36F 
+    ----------
+
+:Skein-256:  Final output=
+     B0 DC 71 B3  C9 09 31 1A  47 B6 DC 77  D9 74 DB 3A
+     F6 83 47 0C  88 43 89 DB  6F A3 C2 19  D9 AD 82 2B
+    ++++++++++
+
+:Skein-256:  Block: outBits=2056. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+  Input block (bytes):
+     03 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     DAE45212.4844E209  579C703F.6ACECCA9  26701F94.6D3C55F3  B19982E5.74D50A57 
+    ----------
+
+:Skein-256:  Final output=
+     09 E2 44 48  12 52 E4 DA  A9 CC CE 6A  3F 70 9C 57
+     F3 55 3C 6D  94 1F 70 26  57 0A D5 74  E5 82 99 B1
+    ++++++++++
+
+:Skein-256:  Block: outBits=2056. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+  Input block (bytes):
+     04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     42D40576.A88C7892  89AD3588.CC902994  B24B3495.4750A3DE  70A71A69.3511A938 
+    ----------
+
+:Skein-256:  Final output=
+     92 78 8C A8  76 05 D4 42  94 29 90 CC  88 35 AD 89
+     DE A3 50 47  95 34 4B B2  38 A9 11 35  69 1A A7 70
+    ++++++++++
+
+:Skein-256:  Block: outBits=2056. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+  Input block (bytes):
+     05 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     C2D6FCBC.E9DF6AAE  85248DB7.470A788C  B8ECDFC2.F649CE65  ED5B8495.E8A4C2D8 
+    ----------
+
+:Skein-256:  Final output=
+     AE 6A DF E9  BC FC D6 C2  8C 78 0A 47  B7 8D 24 85
+     65 CE 49 F6  C2 DF EC B8  D8 C2 A4 E8  95 84 5B ED
+    ++++++++++
+
+:Skein-256:  Block: outBits=2056. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+  Input block (bytes):
+     06 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     39A656BD.4637C70D  AA6863DE.1C685556  EF84F2BA.2903584C  074B4E98.D44E10B3 
+    ----------
+
+:Skein-256:  Final output=
+     0D C7 37 46  BD 56 A6 39  56 55 68 1C  DE 63 68 AA
+     4C 58 03 29  BA F2 84 EF  B3 10 4E D4  98 4E 4B 07
+    ++++++++++
+
+:Skein-256:  Block: outBits=2056. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+  Input block (bytes):
+     07 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     294999FB.789C8EEA  C3021678.4F4F4408  DAC22651.B19B2A79  FCF06FE5.0E39D928 
+    ----------
+
+:Skein-256:  Final output=
+     EA 8E 9C 78  FB 99 49 29  08 44 4F 4F  78 16 02 C3
+     79 2A 9B B1  51 26 C2 DA  28 D9 39 0E  E5 6F F0 FC
+    ++++++++++
+
+:Skein-256:  Block: outBits=2056. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     61DE68E6.1B2D49BD  6F0186D0.8E058639  9B2429D6.9BBE3D06  AE46586E.944C0E0A 
+  Input block (bytes):
+     08 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     EF8BD531.CE47CC22  22D0EE7F.CD37532F  39F31353.8705307B  2FD83AE8.CF127F25 
+    ----------
+
+:Skein-256:  Final output=
+     22
+    ++++++++++
+Result:
+     B6 18 96 A9  C8 E9 39 F3  0B 55 48 11  22 17 32 17
+     49 A1 FE 88  F3 B1 81 48  97 BC 5D 47  09 85 FF 50
+     B6 F6 6B CF  73 AD 68 2B  49 7A E7 37  33 18 6A EA
+     BF C1 93 8F  9B 43 8A F4  32 EF 91 DE  99 48 3F 3A
+     B0 DC 71 B3  C9 09 31 1A  47 B6 DC 77  D9 74 DB 3A
+     F6 83 47 0C  88 43 89 DB  6F A3 C2 19  D9 AD 82 2B
+     09 E2 44 48  12 52 E4 DA  A9 CC CE 6A  3F 70 9C 57
+     F3 55 3C 6D  94 1F 70 26  57 0A D5 74  E5 82 99 B1
+     92 78 8C A8  76 05 D4 42  94 29 90 CC  88 35 AD 89
+     DE A3 50 47  95 34 4B B2  38 A9 11 35  69 1A A7 70
+     AE 6A DF E9  BC FC D6 C2  8C 78 0A 47  B7 8D 24 85
+     65 CE 49 F6  C2 DF EC B8  D8 C2 A4 E8  95 84 5B ED
+     0D C7 37 46  BD 56 A6 39  56 55 68 1C  DE 63 68 AA
+     4C 58 03 29  BA F2 84 EF  B3 10 4E D4  98 4E 4B 07
+     EA 8E 9C 78  FB 99 49 29  08 44 4F 4F  78 16 02 C3
+     79 2A 9B B1  51 26 C2 DA  28 D9 39 0E  E5 6F F0 FC
+     22

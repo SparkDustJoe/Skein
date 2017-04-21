@@ -1,0 +1,56 @@
+:Skein-256:   256-bit hash, msgLen =   511 bits, data = 'random+MAC'
+
+Message data:
+     D3 09 0C 72  16 75 17 F7  C7 AD 82 A7  0C 2F D3 F6
+     44 3F 60 83  01 59 1E 59  8E AD B1 95  E8 35 71 35
+     BA 26 FE DE  2E E1 87 41  7F 81 60 48  D0 0F C2 35
+     12 73 7A 21  13 70 9A 77  E4 17 0C 49  A9 4B 7F DF
+MAC key =    0 bytes:
+    (none)          /* use InitExt() call */
+
+:Skein-256:  Block: outBits= 256. T0=000020. Type=MSG.  Flags= First          
+  Tweak:
+     00000000.00000020  70000000.00000000 
+  State words:
+     FC9DA860.D048B449  2FCA6647.9FA7D833  B33BC389.6656840F  6A54E920.FDE8DA69 
+  Input block (bytes):
+     D3 09 0C 72  16 75 17 F7  C7 AD 82 A7  0C 2F D3 F6
+     44 3F 60 83  01 59 1E 59  8E AD B1 95  E8 35 71 35
+
+:Skein-256:  [state after plaintext feedforward]=
+     2E98528D.24F2ECDD  259ED058.6D880B03  A130BC9C.4F593BA5  48D0C18A.6199C5B2 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000040. Type=MSG.  Flags=       Final Pad
+  Tweak:
+     00000000.00000040  B0800000.00000000 
+  State words:
+     2E98528D.24F2ECDD  259ED058.6D880B03  A130BC9C.4F593BA5  48D0C18A.6199C5B2 
+  Input block (bytes):
+     BA 26 FE DE  2E E1 87 41  7F 81 60 48  D0 0F C2 35
+     12 73 7A 21  13 70 9A 77  E4 17 0C 49  A9 4B 7F DF
+
+:Skein-256:  [state after plaintext feedforward]=
+     7F6374E1.FB0C56FB  90E3FA90.5070ACCD  F99A4994.92496424  F49A1F5F.EF071662 
+    ----------
+
+:Skein-256:  Block: outBits= 256. T0=000008. Type=OUT.  Flags= First Final    
+  Tweak:
+     00000000.00000008  FF000000.00000000 
+  State words:
+     7F6374E1.FB0C56FB  90E3FA90.5070ACCD  F99A4994.92496424  F49A1F5F.EF071662 
+  Input block (bytes):
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+     00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+:Skein-256:  [state after plaintext feedforward]=
+     6C1FD436.A7FA0D94  4444EC2F.740A73C9  13A4D737.C5421F6E  A00BB0C6.045A2317 
+    ----------
+
+:Skein-256:  Final output=
+     94 0D FA A7  36 D4 1F 6C  C9 73 0A 74  2F EC 44 44
+     6E 1F 42 C5  37 D7 A4 13  17 23 5A 04  C6 B0 0B A0
+    ++++++++++
+Result:
+     94 0D FA A7  36 D4 1F 6C  C9 73 0A 74  2F EC 44 44
+     6E 1F 42 C5  37 D7 A4 13  17 23 5A 04  C6 B0 0B A0
