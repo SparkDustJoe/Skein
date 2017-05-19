@@ -647,6 +647,9 @@ namespace Skein
 		//==END 1024====================================================================================
 		// *** END OF GENERATED CODE:  SEE BuildThreeFishCPP PROJECT *** 
 
+		// Assignments to the bufX variables after storing them in result[X] are to zero the memory by essentially
+		// XORing them with themselves.  This (hopefully) prevents the compiler from optimizing the zeroing
+		// of the buffer variables out of the compiled code.  This zeroing is optional but prevents leaks.
 
 		if (feed)
 		{
