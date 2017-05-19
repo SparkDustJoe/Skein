@@ -8,7 +8,7 @@ This code base was developed over a number of years and originally lived in Code
 
 This uses Managed C++ for efficiency and a level of code reliability but is not necessarily optimized for maximum speed.  Having said that, when compiled as x64 Release mode, the throughput is adequately speedy for most applications.  The resulting DLL can be linked or MSIL merged into .NET code.
 
-This code is Copyright © Dustin J. Sparks 2013-2017 but released into the Public Domain based on the original white paper from the Skein team.  My earliest attempt is linked there as “SkeinLibManaged” which is painfully slow and has been long deprecated.  I doubt Bruce will be updating his information page anytime soon but I’ll reach out to him to update the list (can’t hurt).  
+This code is Copyright © Dustin J. Sparks 2013-2017 but released into the Public Domain based on the original white paper and reference code from the Skein team. 
 
 This is the live developed repository for this version.
 
