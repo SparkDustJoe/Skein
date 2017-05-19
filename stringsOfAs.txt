@@ -1,3 +1,11 @@
+State Bit Width, Hash Bit Length, Number of 'a's in the Input, Time to completion H:MM:SS.FFFFF 
+NOTE: the individual bytes in the arrays are all 0x61 (ASCII 'a'), this was done due to memory spikes from String
+object overhead needlessly consuming GB of memory. The original times were gathered on an Intel i7 from a Surface
+Pro 4 running Windows 10 and Visual Studio 2015.
+
+So the first example is SKEIN256 with a 160 bit output length with input 'aa', resulting in a byte array of:
+3B 90 60 28 AF 12 0D 2D 12 A0 AB 23 4A 12 C9 86 4D 4F 57 22 (which is displayed Base64 encoded for brevity)
+
  256,  160, length=         2, 0:00:00.00000     RESULT(base64):
 O5BgKK8SDS0SoKsjShLJhk1PVyI=
  256,  160, length=         3, 0:00:00.00000     RESULT(base64):
